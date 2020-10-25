@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar,
+.menu-item {
+  background-color: lightseagreen;
+}
+
+.page-title {
+  margin-bottom: 30px;
+}
+
+.menu-item {
+  min-height: 700px;
+  margin-bottom: 30px;
+}
+
+.menu-item-title {
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.menu-item-description:not(:last-of-type) {
+  margin-bottom: 20px;
+}
